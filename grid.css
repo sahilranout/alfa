@@ -1,0 +1,93 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+.bi {
+    background-image: url("DSC08740.JPG");
+    background-size: cover; /* This will make sure the image covers the whole element */
+    background-position: center; /* This will center the image */
+}
+
+  
+.pic,img{
+    border-image-repeat: repeat;
+    image-orientation: 0deg;
+    image-orientation: from-image;
+    color: aqua;
+    border: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height:  auto;
+}
+.topsection {
+    display: flex;
+    justify-content: space-between  ;
+    align-items: self-end;
+}
+.topsection h1{
+    font-size: 40px;
+}
+.topsection h2{
+    font-size: 20px;
+    text-align: end;
+}
+
+.twosection h1{
+    font-size: 30px;
+}
+
+.twosection p{
+    font-weight: 100    ;
+    font-size: 30px;   
+}
+.congo b{
+    font-size: 40px;
+}
+.poi{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.pic2{
+    
+    max-width: 1fr 1fr 1fr;
+    font-size: 40px;
+    font-weight: bold;
+}
+.foursection ul{
+    color: #0dc770;
+    font-size: 50px;
+    text-align: center;
+}
+.foursection p{
+    background-color: #000000;
+    opacity: 0.6;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+}
+.pitu {
+    grid-column-end: span 1fr;
+    grid-row-end: span 1fr;
+    font-size: 40px;
+    font-weight: bold;
+}
+.iop h1{
+    text-align: center;
+}
+.iop h1:hover{
+    text-align: center   ;
+    position: cover;
+    text-align: center;
+    font-size: 57px; 
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+}
+img{
+    border: 3px solid white;
+}
+img:hover{
+    border: 3px solid rgb(29, 29, 148);
+}
+
